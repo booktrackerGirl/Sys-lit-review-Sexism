@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-01-21">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="word embeddings" label="word embeddings" />
+      <node id="embeddings" label="embeddings" />
+      <node id="hate" label="hate" />
+      <node id="abusive language" label="abusive language" />
+      <node id="hate speech" label="hate speech" />
+      <node id="misogyny identification" label="misogyny identification" />
+      <node id="automatic misogyny" label="automatic misogyny" />
+      <node id="speech offensive" label="speech offensive" />
+      <node id="offensive language" label="offensive language" />
+      <node id="unintended bias" label="unintended bias" />
+      <node id="sexism" label="sexism" />
+      <node id="categories sexism" label="categories sexism" />
+      <node id="sexism categorization" label="sexism categorization" />
+      <node id="sexism classification" label="sexism classification" />
+      <node id="classification sexism" label="classification sexism" />
+      <node id="sexist content" label="sexist content" />
+      <node id="sexism detection" label="sexism detection" />
+      <node id="detection sexist" label="detection sexist" />
+      <node id="detecting hate" label="detecting hate" />
+      <node id="sexism social" label="sexism social" />
+      <node id="sexism identification" label="sexism identification" />
+      <node id="hateful content" label="hateful content" />
+      <node id="abusive content" label="abusive content" />
+      <node id="tweet racist" label="tweet racist" />
+      <node id="classify tweet" label="classify tweet" />
+      <node id="annotated tweets" label="annotated tweets" />
+      <node id="tweets hate" label="tweets hate" />
+      <node id="tweets deep" label="tweets deep" />
+      <node id="detection tweets" label="detection tweets" />
+      <node id="misogyny detection" label="misogyny detection" />
+      <node id="toxic content" label="toxic content" />
+      <node id="bias" label="bias" />
+      <node id="sexism hate" label="sexism hate" />
+      <node id="models sexism" label="models sexism" />
+      <node id="case sexism" label="case sexism" />
+      <node id="bias especially" label="bias especially" />
+      <node id="misogynistic language" label="misogynistic language" />
+      <node id="sentiment" label="sentiment" />
+      <node id="sexism web" label="sexism web" />
+      <node id="sexism infuse" label="sexism infuse" />
+      <node id="experiences sexism" label="experiences sexism" />
+      <node id="sexism injustice" label="sexism injustice" />
+    </nodes>
+    <edges>
+      <edge source="word embeddings" target="embeddings" id="0" weight="40" />
+      <edge source="word embeddings" target="hate" id="1" weight="30" />
+      <edge source="word embeddings" target="hate speech" id="2" weight="30" />
+      <edge source="word embeddings" target="tweet racist" id="3" weight="20" />
+      <edge source="word embeddings" target="tweets hate" id="4" weight="20" />
+      <edge source="word embeddings" target="tweets deep" id="5" weight="20" />
+      <edge source="word embeddings" target="annotated tweets" id="6" weight="20" />
+      <edge source="word embeddings" target="detection tweets" id="7" weight="20" />
+      <edge source="embeddings" target="hate" id="8" weight="40" />
+      <edge source="embeddings" target="hate speech" id="9" weight="30" />
+      <edge source="embeddings" target="tweets hate" id="10" weight="20" />
+      <edge source="embeddings" target="tweets deep" id="11" weight="20" />
+      <edge source="embeddings" target="classify tweet" id="12" weight="20" />
+      <edge source="embeddings" target="detection tweets" id="13" weight="20" />
+      <edge source="embeddings" target="annotated tweets" id="14" weight="20" />
+      <edge source="hate" target="tweet racist" id="15" weight="20" />
+      <edge source="hate" target="classify tweet" id="16" weight="20" />
+      <edge source="hate" target="annotated tweets" id="17" weight="20" />
+      <edge source="hate" target="tweets hate" id="18" weight="20" />
+      <edge source="hate" target="tweets deep" id="19" weight="20" />
+      <edge source="hate" target="detection tweets" id="20" weight="20" />
+      <edge source="abusive language" target="hate speech" id="21" weight="40" />
+      <edge source="abusive language" target="misogynistic language" id="22" weight="20" />
+      <edge source="hate speech" target="unintended bias" id="23" weight="30" />
+      <edge source="hate speech" target="sexism" id="24" weight="20" />
+      <edge source="hate speech" target="detecting hate" id="25" weight="30" />
+      <edge source="hate speech" target="sexism detection" id="26" weight="30" />
+      <edge source="hate speech" target="speech offensive" id="27" weight="30" />
+      <edge source="hate speech" target="offensive language" id="28" weight="30" />
+      <edge source="hate speech" target="hateful content" id="29" weight="30" />
+      <edge source="hate speech" target="abusive content" id="30" weight="30" />
+      <edge source="hate speech" target="tweet racist" id="31" weight="20" />
+      <edge source="hate speech" target="tweets deep" id="32" weight="20" />
+      <edge source="hate speech" target="detection tweets" id="33" weight="20" />
+      <edge source="hate speech" target="bias" id="34" weight="20" />
+      <edge source="hate speech" target="sentiment" id="35" weight="20" />
+      <edge source="misogyny identification" target="automatic misogyny" id="36" weight="40" />
+      <edge source="misogyny identification" target="misogyny detection" id="37" weight="20" />
+      <edge source="misogyny identification" target="toxic content" id="38" weight="20" />
+      <edge source="automatic misogyny" target="misogyny detection" id="39" weight="20" />
+      <edge source="speech offensive" target="offensive language" id="40" weight="40" />
+      <edge source="unintended bias" target="case sexism" id="41" weight="20" />
+      <edge source="sexism" target="sexism social" id="42" weight="30" />
+      <edge source="sexism" target="sexism identification" id="43" weight="30" />
+      <edge source="sexism" target="case sexism" id="44" weight="20" />
+      <edge source="categories sexism" target="sexism categorization" id="45" weight="30" />
+      <edge source="categories sexism" target="sexism detection" id="46" weight="20" />
+      <edge source="categories sexism" target="sexism classification" id="47" weight="20" />
+      <edge source="categories sexism" target="classification sexism" id="48" weight="20" />
+      <edge source="categories sexism" target="sexism web" id="49" weight="20" />
+      <edge source="categories sexism" target="sexism infuse" id="50" weight="20" />
+      <edge source="sexism categorization" target="classification sexism" id="51" weight="20" />
+      <edge source="sexism categorization" target="sexism web" id="52" weight="20" />
+      <edge source="sexism categorization" target="sexism detection" id="53" weight="20" />
+      <edge source="sexism categorization" target="sexism classification" id="54" weight="20" />
+      <edge source="sexism categorization" target="sexism infuse" id="55" weight="20" />
+      <edge source="sexism classification" target="classification sexism" id="56" weight="30" />
+      <edge source="sexism classification" target="sexism web" id="57" weight="20" />
+      <edge source="sexism classification" target="sexism detection" id="58" weight="20" />
+      <edge source="sexism classification" target="experiences sexism" id="59" weight="20" />
+      <edge source="sexism classification" target="sexism infuse" id="60" weight="20" />
+      <edge source="classification sexism" target="sexism detection" id="61" weight="20" />
+      <edge source="classification sexism" target="sexism infuse" id="62" weight="20" />
+      <edge source="classification sexism" target="sexism web" id="63" weight="20" />
+      <edge source="sexist content" target="sexism detection" id="64" weight="30" />
+      <edge source="sexism detection" target="detection sexist" id="65" weight="30" />
+      <edge source="sexism detection" target="sexism web" id="66" weight="20" />
+      <edge source="sexism detection" target="sexism infuse" id="67" weight="20" />
+      <edge source="tweet racist" target="classify tweet" id="68" weight="20" />
+      <edge source="tweet racist" target="annotated tweets" id="69" weight="20" />
+      <edge source="classify tweet" target="tweets hate" id="70" weight="20" />
+      <edge source="classify tweet" target="tweets deep" id="71" weight="20" />
+      <edge source="classify tweet" target="annotated tweets" id="72" weight="20" />
+      <edge source="classify tweet" target="detection tweets" id="73" weight="20" />
+      <edge source="annotated tweets" target="tweets hate" id="74" weight="20" />
+      <edge source="annotated tweets" target="tweets deep" id="75" weight="20" />
+      <edge source="annotated tweets" target="detection tweets" id="76" weight="20" />
+      <edge source="tweets hate" target="tweets deep" id="77" weight="20" />
+      <edge source="tweets hate" target="detection tweets" id="78" weight="20" />
+      <edge source="tweets deep" target="detection tweets" id="79" weight="20" />
+      <edge source="bias" target="sexism hate" id="80" weight="20" />
+      <edge source="bias" target="models sexism" id="81" weight="20" />
+      <edge source="bias" target="bias especially" id="82" weight="20" />
+      <edge source="case sexism" target="bias especially" id="83" weight="20" />
+      <edge source="sexism web" target="sexism infuse" id="84" weight="20" />
+      <edge source="experiences sexism" target="sexism injustice" id="85" weight="20" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,1 @@
+WOS_API_KEY = "de5b5193dedff2c20c768dbb831dcec3f0557051"
